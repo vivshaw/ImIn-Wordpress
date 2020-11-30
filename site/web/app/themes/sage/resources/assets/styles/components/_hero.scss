@@ -1,0 +1,14 @@
+/* -------------------------------------------
+  -- Hero
+------------------------------------------- */
+@import "../_vars.scss";
+
+#ts-hero {
+  color: $color-white;
+  display: flex;
+  position: relative;
+
+  .ts-background-image {
+    background-position: top center;
+  }
+}

@@ -1,0 +1,13 @@
+/* -------------------------------------------
+  -- Box
+------------------------------------------- */
+
+@import "../_vars.scss";
+
+.ts-box {
+  background-color: $color-white;
+  border-radius: $br-md;
+  margin-bottom: 30px;
+  box-shadow: $bs-md;
+  padding: $p;
+}

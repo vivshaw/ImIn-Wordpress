@@ -1,0 +1,21 @@
+/* -------------------------------------------
+  -- List
+------------------------------------------- */
+
+@import "../_vars.scss";
+
+ul {
+  line-height: 40px;
+
+  &.ts-list-divided {
+    li {
+      border-bottom: 1px solid $color-grey-light;
+      padding-bottom: 5px;
+      padding-top: 5px;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}

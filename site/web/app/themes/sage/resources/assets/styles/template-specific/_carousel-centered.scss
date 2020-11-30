@@ -1,0 +1,69 @@
+/* -------------------------------------------
+  -- Centered Slider
+------------------------------------------- */
+
+.ts-carousel-centered {
+  .slide {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 16px;
+  }
+
+  .owl-item {
+    perspective: 1000;
+
+    .slide {
+      opacity: 0.5;
+      transition: $tr;
+      transform: scale(0.95);
+    }
+
+    &.active.center {
+      .slide {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  }
+
+  .owl-nav {
+    .owl-next {
+      right: 20px;
+
+      @media (min-width: 576px) {
+        right: 40px;
+      }
+
+      @media (min-width: 1200px) {
+        right: 80px;
+      }
+    }
+
+    .owl-prev {
+      left: 20px;
+
+      @media (min-width: 576px) {
+        left: 40px;
+      }
+
+      @media (min-width: 1200px) {
+        left: 80px;
+      }
+    }
+
+    .owl-prev,
+    .owl-next {
+      height: 60px;
+      width: 60px;
+
+      &::after {
+        font-size: 22px;
+        line-height: 60px;
+      }
+
+      &:hover {
+        background-color: rgba($color-black, 1);
+      }
+    }
+  }
+}

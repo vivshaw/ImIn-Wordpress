@@ -1,0 +1,59 @@
+/* -------------------------------------------
+  -- Card
+------------------------------------------- */
+
+@import "../_vars.scss";
+
+.card {
+  backface-visibility: hidden;
+  border: none;
+  box-shadow: $bs-md;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.card-columns {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+.card-body,
+.card-footer,
+.card-header {
+  padding: $p;
+}
+
+.ts-cards-same-height {
+  > div[class*="col-"] {
+    display: flex;
+
+    .card {
+      width: 100%;
+    }
+  }
+}
+
+.ts-card__flat {
+  border-radius: 0;
+  box-shadow: none;
+
+  .card-footer {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.ts-card__image {
+  @media (max-width: 991px) {
+    height: 250px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    height: 200px;
+  }
+
+  @media (min-width: 1200px) {
+    height: 250px;
+  }
+}

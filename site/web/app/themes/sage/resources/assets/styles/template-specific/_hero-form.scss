@@ -1,0 +1,23 @@
+/* -------------------------------------------
+  -- Hero Form Floated
+------------------------------------------- */
+
+.floated {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  bottom: -30px;
+
+  @media (min-width: 992px) {
+    position: absolute;
+  }
+
+  form {
+    position: relative;
+    padding: 30px 60px;
+
+    @media (min-width: 1200px) {
+      padding: 40px 80px;
+    }
+  }
+}

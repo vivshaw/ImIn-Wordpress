@@ -1,0 +1,27 @@
+/* COLORS */
+$color-white: #fff;
+$color-white-svg: "%23fff";
+$color-primary: #ff3d77;
+$color-primary-svg: "%23ff3d77";
+$color-secondary: #feae51;
+$color-secondary-svg: "%23feae51";
+$color-black: #000;
+$color-black-svg: "%23000000";
+$color-grey: #9e9e9e;
+$color-grey-light: rgba(0, 0, 0, 0.1);
+
+/* BORDER RADIUS */
+$br-md: 4px;
+$br-rounded: 100px;
+$br-circle: 50%;
+
+/* BOX SHADOW */
+$bs-sm: 0 2px 5px rgba($color-black, 0.1);
+$bs-md: 2px 3px 15px rgba($color-black, 0.15);
+$bs-lg: 6px 5px 25px rgba($color-black, 0.2);
+
+/* TRANSITIONS */
+$tr: 0.3s ease;
+
+/* PADDING */
+$p: 25px;

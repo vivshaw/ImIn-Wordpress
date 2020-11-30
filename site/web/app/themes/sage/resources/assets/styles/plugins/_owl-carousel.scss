@@ -1,0 +1,86 @@
+/* -------------------------------------------
+  -- Owl Carousel
+------------------------------------------- */
+
+@import "../_vars.scss";
+
+.owl-carousel {
+  .owl-dots {
+    text-align: center;
+
+    .owl-dot {
+      display: inline-block;
+      padding: 5px;
+
+      span {
+        background-color: $color-black;
+        border-radius: $br-circle;
+        display: inline-block;
+        height: 10px;
+        opacity: 0.2;
+        transition: $tr;
+        width: 10px;
+      }
+
+      &:hover,
+      &.active {
+        span {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: -20px;
+    bottom: 0;
+    height: 0;
+    margin: auto;
+    width: 100%;
+
+    .owl-next {
+      right: 5px;
+
+      &::after {
+        content: "\f105";
+        margin-left: 3px;
+      }
+    }
+
+    .owl-prev {
+      left: 5px;
+
+      &::after {
+        content: "\f104";
+        margin-right: 1px;
+      }
+    }
+
+    .owl-prev,
+    .owl-next {
+      background-color: rgba($color-black, 0.6);
+      border-radius: $br-circle;
+      box-shadow: $bs-sm;
+      color: $color-white;
+      display: inline-block;
+      height: 40px;
+      position: absolute;
+      text-align: center;
+      transition: $tr;
+      width: 40px;
+
+      &::after {
+        font-family: "Font Awesome\ 5 Free", sans-serif;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 40px;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      &:hover {
+        background-color: rgba($color-black, 0.8);
+      }
+    }
+  }
+}

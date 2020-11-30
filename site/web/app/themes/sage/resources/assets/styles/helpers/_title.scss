@@ -1,0 +1,22 @@
+/* -------------------------------------------
+  -- Title
+------------------------------------------- */
+
+.ts-title {
+  @media (max-width: 575px) {
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: 576px) and (max-width: 991px) {
+    margin-bottom: 80px;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 100px;
+  }
+
+  h5 {
+    font-weight: normal;
+    opacity: 0.5;
+  }
+}

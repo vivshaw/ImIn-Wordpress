@@ -1,0 +1,52 @@
+/* -------------------------------------------
+  -- Other
+------------------------------------------- */
+
+@import "../_vars.scss";
+
+/* Footer push up */
+#ts-footer {
+  .ts-box {
+    margin-top: -50px;
+  }
+}
+
+.ts-tabs-presentation {
+  .tab-pane {
+    img {
+      opacity: 0;
+      transition: $tr;
+      transform: translateY(20px);
+    }
+
+    &.show.active {
+      img {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+}
+
+/* Hero navigation arrows */
+#ts-hero {
+  .owl-prev,
+  .owl-next {
+    background-color: transparent;
+    border: 2px solid rgba($color-white, 0.8);
+
+    &::after {
+      line-height: 36px;
+    }
+  }
+}
+
+/* Hero slider height */
+
+.ts-hero-slider {
+  height: 100% !important;
+
+  div {
+    height: 100% !important;
+  }
+}
