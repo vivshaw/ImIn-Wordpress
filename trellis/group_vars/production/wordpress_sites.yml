@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  imninap.com:
+  iminap.com:
     site_hosts:
       - canonical: iminap.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
