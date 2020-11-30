@@ -5,7 +5,7 @@
 wordpress_sites:
   imninap.com:
     site_hosts:
-      - canonical: imninap.com
+      - canonical: iminap.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:vivshaw/ImIn-Wordpress.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
