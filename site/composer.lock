@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1be1b22fdb541aee2906beb81b35b4db",
+    "content-hash": "72a9b7f296668a1f92788ced47c6d8b2",
     "packages": [
         {
             "name": "composer/installers",
@@ -738,10 +738,10 @@
         },
         {
             "name": "wp-sync-db/wp-sync-db",
-            "version": "1.5",
+            "version": "1.6",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/wp-sync-db/wp-sync-db/archive/1.5.zip"
+                "url": "https://github.com/corysimmons/wp-sync-db/archive/1.6.zip"
             },
             "type": "wordpress-plugin"
         },
