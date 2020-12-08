@@ -1,13 +1,15 @@
 @if (is_page("Home") || is_page("FAQ"))
 <header id="ts-hero" class="ts-full-screen">
+    <!--NAVIGATION ******************************************************************************************-->
+    <nav class="navbar navbar-expand-lg fadeEffect navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#FEAE51">
 @else
 <header>
+    <!--NAVIGATION ******************************************************************************************-->
+    <nav class="navbar navbar-expand-lg in navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#FEAE51">
 @endif
-  <!--NAVIGATION ******************************************************************************************-->
-  <nav class="navbar navbar-expand-lg in navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#FEAE51">
       <div class="container">
           <a class="navbar-brand" href="/">
-              <img src="assets/img/logoWhite.svg" class="brandLogo" alt="I'm In logo">
+              <img src="@asset('images/logoWhite.svg')" class="brandLogo" alt="I'm In logo">
           </a>
           <!--end navbar-brand-->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72a9b7f296668a1f92788ced47c6d8b2",
+    "content-hash": "4625ba2c70441a34ed5a31f2797c667e",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,6 +146,41 @@
                 }
             ],
             "time": "2020-04-07T06:57:05+00:00"
+        },
+        {
+            "name": "darylldoyle/safe-svg",
+            "version": "1.9.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/safe-svg.git",
+                "reference": "973c3ff694eb52fdedf3011c2312a9a2df955fc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/safe-svg/zipball/973c3ff694eb52fdedf3011c2312a9a2df955fc5",
+                "reference": "973c3ff694eb52fdedf3011c2312a9a2df955fc5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "homepage": "https://wpsvg.com/"
+                }
+            ],
+            "description": "Enable SVG uploads and sanitize them to stop XML/SVG vulnerabilities in your WordPress website",
+            "support": {
+                "issues": "https://github.com/darylldoyle/safe-svg/issues",
+                "source": "https://github.com/darylldoyle/safe-svg/tree/1.9.9"
+            },
+            "time": "2020-05-07T06:46:40+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -578,6 +613,15 @@
                 "source": "https://github.com/roots/wp-password-bcrypt/tree/master"
             },
             "time": "2016-03-01T16:27:06+00:00"
+        },
+        {
+            "name": "superpwa/super-progressive-web-apps",
+            "version": "2.1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/SuperPWA/Super-Progressive-Web-Apps/archive/2.1.2.zip"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "symfony/polyfill-ctype",

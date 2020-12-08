@@ -1,23 +1,30 @@
 <!doctype html>
 <html {!! get_language_attributes() !!}>
   @include('partials.head')
-  <body @php body_class() @endphp>
-    @php do_action('get_header') @endphp
-    @include('partials.header')
-    <div class="wrap container" role="document">
-      <div class="content">
-        <main class="main">
+  <body @php body_class() @endphp data-spy="scroll" data-target=".navbar" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+    <div class="ts-page-wrapper" id="page-top">  
+      @php do_action('get_header') @endphp
+      @include('partials.header')
+
+      <main id="ts-main">
+        @if (is_page("Home"))
           @yield('content')
-        </main>
-        @if (App\display_sidebar())
-          <aside class="sidebar">
-            @include('partials.sidebar')
-          </aside>
+        @else
+          <div class="container">
+            @yield('content')
+          </div>
         @endif
-      </div>
+      </main>
+
+      @if (App\display_sidebar())
+        <aside class="sidebar">
+          @include('partials.sidebar')
+        </aside>
+      @endif
+
+      @php do_action('get_footer') @endphp
+      @include('partials.footer')
+      @php wp_footer() @endphp
     </div>
-    @php do_action('get_footer') @endphp
-    @include('partials.footer')
-    @php wp_footer() @endphp
   </body>
 </html>

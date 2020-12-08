@@ -60,6 +60,18 @@
           "url": "https://github.com/wp-sync-db/wp-sync-db-media-files/archive/1.1.5.zip"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "superpwa/super-progressive-web-apps",
+        "type": "wordpress-plugin",
+        "version": "2.1.2",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/SuperPWA/Super-Progressive-Web-Apps/archive/2.1.2.zip"
+        }
+      }
     }
   ],
   "require": {
@@ -72,7 +84,9 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wp-sync-db/wp-sync-db": "*",
-    "wp-sync-db/wp-sync-db-media-files": "*"
+    "wp-sync-db/wp-sync-db-media-files": "*",
+    "superpwa/super-progressive-web-apps": "*",
+    "darylldoyle/safe-svg": "^1.9"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.6",
