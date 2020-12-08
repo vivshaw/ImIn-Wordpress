@@ -8,7 +8,7 @@
 
       <main id="ts-main">
         @if (is_page("Home"))
-          @yield('content')
+          @include('partials.homepage')
         @else
           <div class="container">
             @yield('content')

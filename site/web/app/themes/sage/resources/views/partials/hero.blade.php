@@ -2,14 +2,14 @@
 <div class="container align-self-center">
     <div class="row align-items-center">
         <div class="col-sm-7">
-            <h1>Welcome to <img src="assets/img/logoWhite.svg" style="width: 200px;" class="brandLogo" alt="I'm In logo"></h1>
+            <h1>Welcome to <img src="@asset('images/logoWhite.svg')" style="width: 200px;" class="brandLogo" alt="I'm In logo"></h1>
             <h3>The app to keep you organized and on track for planning life after high school.</h3>
             <a href="https://app.iminap.com" class="btn btn-light btn-lg ts-scroll">Sign Up</a>
         </div>
         <!--end col-sm-7 col-md-7-->
         <div class="col-sm-5 d-none d-sm-block">
             <div class="owl-carousel text-center" data-owl-nav="1" data-owl-loop="1">
-                <img src="/img/signin_iphone8.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt="">
+                <img src="@asset('images/signin_iphone8.png')" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt="">
             </div>
         </div>
         <!--end col-sm-5 col-md-5 col-xl-5-->
